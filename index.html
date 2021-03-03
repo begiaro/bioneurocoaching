@@ -1,219 +1,282 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--========== BOX ICONS ==========-->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>BIONEUROCOACHING</title>
-    </head>
-    <body>
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
-        </a>
-        
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Bioneurocoaching</a>
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
-                        <li class="nav__item"><a href="#share" class="nav__link">Servicios</a></li>
-                        <li class="nav__item"><a href="#decoration" class="nav__link">Team</a></li>
-                        <li class="nav__item"><a href="#accessory" class="nav__link">Contacto</a></li>
+    <title>BIONEUROCOACHING</title>
+</head>
 
-                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
-                    </ul>
+<body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#home" class="nav__logo"><img src="./assets/img/bnc-logo.png" alt="logo-bnc" class="img-logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                    <li class="nav__item"><a href="#about-us" class="nav__link">Nosotros</a></li>
+                    <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+                    <li class="nav__item"><a href="#content" class="nav__link">Contenido</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/home3.png" alt="">
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
+                <div class="home__data">
+                    <h1 class="home__title">BioNeuroCoaching</h1>
+                    <p class="home__description">El programa busca formar profesionales a partir de este método;
+                        integrando la Descodificación Biológica, Programación Neurolingüística y Coaching, cuyo único
+                        fin
+                        es favorecer y afianzar el bienestar personal, además de una salida laboral.</p>
+                    <a href="#about-us" class="button">Empecemos</a>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </section>
 
-        <main class="l-main">
-            <!--========== HOME ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__img">
-                        <img src="assets/img/home3.png" alt="">
-                    </div>
-
-                    <div class="home__data">
-                        <h1 class="home__title">BioNeuroCoaching</h1>
-                        <p class="home__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, quas dicta. Tenetur inventore, dolor blanditiis dolorem temporibus a cupiditate laboriosam culpa! Suscipit nulla eius quis ullam, odio minima repudiandae maxime?</p>
-                        <a href="#" class="button">Empecemos</a>
-                    </div>   
+        <!--========== ABOUT US ==========-->
+        <section class="share section bd-container" id="about-us">
+            <div class="share__container bd-grid">
+                <div class="share__data">
+                    <h2 class="section-title-center">¿Quienes somos?</h2>
+                    <p class="share__description">Somos un equipo que estudiamos, pensamos y trabajamos para transformar
+                        la educación haciendo de la persona el centro de la experiencia de aprendizaje.</p>
+                    <a href="#objects" class="button">Ver más</a>
                 </div>
-            </section>
 
-            <!--========== SHARE ==========-->
-            <section class="share section bd-container" id="share">
-                <div class="share__container bd-grid">
-                    <div class="share__data">
-                        <h2 class="section-title-center">Bio neuro coachin</h2>
-                        <p class="share__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos earum explicabo maxime pariatur! Placeat incidunt consequuntur assumenda illo tempore amet vitae maxime, vero dolores. Esse omnis placeat cupiditate vero rerum id harum.</p>
-                        <a href="#" class="button">Ver más</a>
-                    </div>
-
-                    <div class="share__img">
-                        <img src="assets/img/services2.png" alt="">
-                    </div>
+                <div class="share__img">
+                    <img src="assets/img/services2.png" alt="img-about">
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--========== DECORATION ==========-->
-            <section class="decoration section bd-container" id="decoration">
-                <h2 class="section-title">Team</h2>
-                <div class="decoration__container bd-grid">
-                    <div class="decoration__data">
-                        <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Nombre y apellido</h3>
-                        <a href="#" class="button button-link">Ver más</a>
-                    </div>
+        <!--========== OBJETIVOS ==========-->
 
-                    <div class="decoration__data">
-                        <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Nombre y apellido</h3>
-                        <a href="#" class="button button-link">Ver más</a>
-                    </div>
+        <section class="accessory section bd-container" id="objects">
+            <h2 class="section-title">Objetivos del Cursado</h2>
 
-                    <div class="decoration__data">
-                        <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">Nombre y apellido</h3>
-                        <a href="#" class="button button-link">Ver más</a>
-                    </div>
+            <div class="accessory__container bd-grid">
+                <div class="accessory__content">
+                    <img src="assets/img/decobio.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Descodificación Biológica </h3>
+                    <span class="accessory__category"> Es una disciplina que trabaja en el campo emocional, que es quien
+                        da origen o se asocia al sistema de una enfermedad para lograr desprogramarla.</span>
+                    <!--  <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
                 </div>
-            </section>
 
-            <!--========== ACCESSORIES ==========-->
-            <section class="accessory section bd-container" id="accessory">
-                <h2 class="section-title">Contenido</h2>
-
-                <div class="accessory__container bd-grid">
-                    <div class="accessory__content">
-                        <img src="assets/img/contenido.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Titulo</h3>
-                        <span class="accessory__category">Servicio</span>
-                        <span class="accessory__preci">$$$$$$$$</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/contenido.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Titulo</h3>
-                        <span class="accessory__category">Servicio</span>
-                        <span class="accessory__preci">$$$$$$$$</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/contenido.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Titulo</h3>
-                        <span class="accessory__category">Servicio</span>
-                        <span class="accessory__preci">$$$$$$$$</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/contenido.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Titulo</h3>
-                        <span class="accessory__category">Servicio</span>
-                        <span class="accessory__preci">$$$$$$$$</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/contenido.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Titulo</h3>
-                        <span class="accessory__category">Servicio</span>
-                        <span class="accessory__preci">$$$$$$$$</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/contenido.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Titulo</h3>
-                        <span class="accessory__category">Servicio</span>
-                        <span class="accessory__preci">$$$$$$$$</span>
-                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
-                    </div>
+                <div class="accessory__content">
+                    <img src="assets/img/pnl.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Programación Neurolingüística</h3>
+                    <span class="accessory__category">Conjunto de métodos y técnicas que permiten a las personas
+                        conseguir sus objetivos en diferentes campos de una manera rápida y eficaz.</span>
+                    <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
                 </div>
-            </section>
 
-            <!--========== SEND GIFT ==========-->
-            <section class="send section">
-                <div class="send__container bd-container bd-grid">
-                    <div class="send__content">
-                        <h2 class="section-title-center send__title">Enviar Mensaje</h2>
-                        <p class="send__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                        <form action="">
-                            <div class="send__direction">
-                                <input type="text" placeholder="House address" class="send__input">
-                                <a href="#" class="button">Enviar</a>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="send__img">
-                        <img src="assets/img/mensaje.png" alt="">
-                    </div>
+                <div class="accessory__content">
+                    <img src="assets/img/coaching.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Coaching</h3>
+                    <span class="accessory__category">Proceso de aprendizaje continuo entre el coach y el consultante, potenciando y desarrollando habilidades para mejorar
+                        psíquica y emocionalmente todas las áreas de su vida.</span>
+                    <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
                 </div>
-            </section>
-        </main>
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer section">
-            <div class="footer__container bd-container bd-grid">
-                <!-- <div class="footer__content">
+            </div>
+        </section>
+
+        <!--========== TEAM ==========-->
+
+        <section class="decoration section bd-container" id="team">
+            <h2 class="section-title">Team</h2>
+            <div class="decoration__container bd-grid">
+                <div class="decoration__data">
+                    <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Nombre y apellido</h3>
+                    <a href="#" class="button button-link">Ver más</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Nombre y apellido</h3>
+                    <a href="#" class="button button-link">Ver más</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Nombre y apellido</h3>
+                    <a href="#" class="button button-link">Ver más</a>
+                </div>
+            </div>
+        </section>
+
+        <!--========== CONTENIDO ==========-->
+
+        <section class="accessory section bd-container" id="content">
+            <h2 class="section-title">Cursado</h2>
+
+            <div class="course-content">
+                <h3 class="course-title">¿A quien esta dirigido?</h3>
+
+                <div class="course-info">
+                    <p>Profesionales de la salud, ejecutivos, líderes y emprendedores, terapeutas, recibidos en Coaching, programación Neurolingüística y público en general.</p>
+                    <img src="./assets/img/services.png" alt="service-image">
+                </div>
+                
+            </div>
+
+            <div class="accessory__container bd-grid">
+                <div class="accessory__content">
+                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Modalidad</h3>
+                    <span class="accessory__category">Presencial con soporte virtual, clases teórico – practicas.</span>
+                    <!-- <span class="accessory__preci">$$$$$$$$</span> -->
+                    <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Duración</h3>
+                    <span class="accessory__category">8 módulos  con un encuentro mensual intensivo de 8 horas divididos en dos módulos (mañana y tarde).</span>
+                    <!-- <span class="accessory__preci">$$$$$$$$</span> -->
+                    <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Lugar y dia de cursado</h3>
+                    <span class="accessory__category">Ciudad de Villa Maria</span>
+                    <span class="accessory__category">Los dias Sabado</span>
+                    <!-- <span class="accessory__preci">Los dias Sabado</span> -->
+                    <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Horario de cursado</h3>
+                    <span class="accessory__category">9:00hs. a 13:00hs  y de 15:00hs a 19:00hs.</span>
+                    <!-- <span class="accessory__preci">$$$$$$$$</span> -->
+                    <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Fechas de cursado</h3>
+                    <!-- <span class="accessory__preci">Fechas de cursado</span> -->
+                    <span class="accessory__category">
+                            10/04/2021 -
+                        	08/05/2021
+                        	12/06/2021 -
+                        	10/07/2021
+                        	07/08/2021 -
+                        	04/09/2021
+                        	16/10/2021 -
+                        	13/11/2021
+                        </span>
+                    <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Inversión</h3>
+                    <!-- <span class="accessory__category">Servicio</span> -->
+                    <span class="accessory__preci">$5000</span>
+                   <!--  <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
+                </div>
+            </div>
+        </section>
+
+        <!--========== CONTACT ==========-->
+        <section class="send section" id="contact">
+            <div class="send__container bd-container bd-grid">
+                <div class="send__content">
+                    <h2 class="section-title-center send__title">Enviar Mensaje</h2>
+                    <p class="send__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <form action="">
+                        <div class="send__direction">
+                            <input type="text" placeholder="House address" class="send__input">
+                            <a href="#" class="button">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="send__img">
+                    <img src="assets/img/mensaje.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section">
+        <div class="footer__container bd-container bd-grid">
+            <!-- <div class="footer__content">
                     <h3 class="footer__title">
                         <a href="#" class="footer__logo">Christmas Gift</a>
                     </h3>
                     <p class="footer__description">I sent a gift and it gives <br> happiness</p>
                 </div> -->
 
-                <div class="footer__content">
-                    <h3 class="footer__title">Servicios</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">bio</a></li>
-                        <li><a href="#" class="footer__link">Neuro</a></li>
-                        <li><a href="#" class="footer__link">Coaching</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Contenido</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">Contenido 1</a></li>
-                        <li><a href="#" class="footer__link">Contenido 2</a></li>
-                        <li><a href="#" class="footer__link">Contenido 3</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Social</h3>
-                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
-                </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Servicios</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">bio</a></li>
+                    <li><a href="#" class="footer__link">Neuro</a></li>
+                    <li><a href="#" class="footer__link">Coaching</a></li>
+                </ul>
             </div>
 
-            <p class="footer__copy">&#169; 2021 Bioneurocoaching. Diseñado y desarrollado por Begiaro</p>
-        </footer>
+            <div class="footer__content">
+                <h3 class="footer__title">Contenido</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Contenido 1</a></li>
+                    <li><a href="#" class="footer__link">Contenido 2</a></li>
+                    <li><a href="#" class="footer__link">Contenido 3</a></li>
+                </ul>
+            </div>
 
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+                <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a> -->
+                <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        <p class="footer__copy">&#169; 2021 Bioneurocoaching. Diseñado y desarrollado por Begiaro</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
