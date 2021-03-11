@@ -10,7 +10,6 @@
 
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css">
-
     <title>BIONEUROCOACHING</title>
 </head>
 
@@ -32,7 +31,6 @@
                     <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
                     <li class="nav__item"><a href="#content" class="nav__link">Contenido</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
-
                     <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                 </ul>
             </div>
@@ -48,7 +46,7 @@
         <section class="home" id="home">
             <div class="home__container bd-container bd-grid">
                 <div class="home__img">
-                    <img src="assets/img/home3.png" alt="">
+                    <img src="assets/img/home3.png" alt="banner-img">
                 </div>
 
                 <div class="home__data">
@@ -84,24 +82,24 @@
             <h2 class="section-title">Objetivos del Cursado</h2>
 
             <div class="accessory__container bd-grid">
-                <div class="accessory__content">
-                    <img src="assets/img/decobio.png" alt="" class="accessory__img">
+                <div class="accessory__content" id="desco-bio">
+                    <img src="assets/img/decobio.png" alt="descodificación" class="accessory__img">
                     <h3 class="accessory__title">Descodificación Biológica </h3>
                     <span class="accessory__category"> Es una disciplina que trabaja en el campo emocional, que es quien
                         da origen o se asocia al sistema de una enfermedad para lograr desprogramarla.</span>
                     <!--  <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
                 </div>
 
-                <div class="accessory__content">
-                    <img src="assets/img/pnl.png" alt="" class="accessory__img">
+                <div class="accessory__content" id="progra-neuro">
+                    <img src="assets/img/pnl.png" alt="progra-neuro" class="accessory__img">
                     <h3 class="accessory__title">Programación Neurolingüística</h3>
                     <span class="accessory__category">Conjunto de métodos y técnicas que permiten a las personas
                         conseguir sus objetivos en diferentes campos de una manera rápida y eficaz.</span>
                     <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
                 </div>
 
-                <div class="accessory__content">
-                    <img src="assets/img/coaching.png" alt="" class="accessory__img">
+                <div class="accessory__content" id="coaching" >
+                    <img src="assets/img/coaching.png" alt="coaching" class="accessory__img">
                     <h3 class="accessory__title">Coaching</h3>
                     <span class="accessory__category">Proceso de aprendizaje continuo entre el coach y el consultante, potenciando y desarrollando habilidades para mejorar
                         psíquica y emocionalmente todas las áreas de su vida.</span>
@@ -116,22 +114,52 @@
         <section class="decoration section bd-container" id="team">
             <h2 class="section-title">Team</h2>
             <div class="decoration__container bd-grid">
+
                 <div class="decoration__data">
-                    <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Nombre y apellido</h3>
-                    <a href="#" class="button button-link">Ver más</a>
+                    <img src="assets/img/Laura.jpg" alt="laura-profile" class="decoration__img">
+                    <h3 class="decoration__title">Mónaco, Laura Carolina </h3>
+                    <button  type="button" onclick="mostrarPremio()">Ver más</button>
+                    <p class="description-profile">
+                        Profesora adjunto en secretaría de extensión de medicina en coaching ontológico
+                        Programadora neurolingüística
+                        Miembro de la fundación salto investigación y enseñanza en psicoanálisis
+                        Investigación inteligencia artificial y psicoanálisis
+                        Miembro de dimensiones clínicas en control de casos en psicoanálisis
+                        Ex gerente de recursos humanos en claro grupo Lucom argentina
+                        Asesora comercial en coaching ejecutivo en claro y Movistar en calls Centers
+                        Coaching de liderazgo para Movistar y claro en estrategias de neuroventas y gestión en las comunicaciones
+                    </p>
                 </div>
 
                 <div class="decoration__data">
-                    <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Nombre y apellido</h3>
-                    <a href="#" class="button button-link">Ver más</a>
+                    <img src="assets/img/Liliana.jpeg" alt="Liliana-profile" class="decoration__img">
+                    <h3 class="decoration__title">Alvarez, Liliana Isabel</h3>
+                    <button type="button" onclick="mostrarPremio()">Ver más</button>
+                    <p class="description-profile">
+                        Especialista diplomada en descodificación biológica de los síntomas y/o dolencias.
+                        Especialista en la Nueva Medicina Germánica.
+                        Terapeuta perteneciente al Instituto Argentino de Descodificación Biológica.
+                        Couch ontológico profesional. 
+                        Facilitadora de Programación Neurolingüistica.
+                        Atención individual y grupal en consultorios privados.
+                        Profesora de nivel superior y educación primaria.
+                        Profesora en ciencias políticas.
+                        Diplomada en políticas públicas. Atención, armado y dirección en diferentes campañas electorales
+                    </p>
                 </div>
 
                 <div class="decoration__data">
-                    <img src="assets/img/perfil (2).png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Nombre y apellido</h3>
-                    <a href="#" class="button button-link">Ver más</a>
+                    <img src="assets/img/Pablo .JPG" alt="Pablo-profile" class="decoration__img">
+                    <h3 class="decoration__title">Giliberti, Pablo Gustavo</h3>
+                    <button type="button" onclick="mostrarPremio()">Ver más</button>
+                    <p class="description-profile">
+                        Contador Público (UNC).
+                        Especializado en consultoría de empresas y dirección estratégica empresarial. 
+                        Coach Ontológico Profesional.  
+                        Especializado en Coaching Ejecutivo y Organizacional.
+                        Neuromanagement  y neuroliderasgo empresarial y gubernamental
+                        Programador Neurolingüístico (PNL)
+                    </p>
                 </div>
             </div>
         </section>
@@ -153,7 +181,7 @@
 
             <div class="accessory__container bd-grid">
                 <div class="accessory__content">
-                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <!-- <img src="assets/img/contenido.png" alt="" class="accessory__img"> -->
                     <h3 class="accessory__title">Modalidad</h3>
                     <span class="accessory__category">Presencial con soporte virtual, clases teórico – practicas.</span>
                     <!-- <span class="accessory__preci">$$$$$$$$</span> -->
@@ -161,7 +189,7 @@
                 </div>
 
                 <div class="accessory__content">
-                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <!-- <img src="assets/img/contenido.png" alt="" class="accessory__img"> -->
                     <h3 class="accessory__title">Duración</h3>
                     <span class="accessory__category">8 módulos  con un encuentro mensual intensivo de 8 horas divididos en dos módulos (mañana y tarde).</span>
                     <!-- <span class="accessory__preci">$$$$$$$$</span> -->
@@ -169,7 +197,7 @@
                 </div>
 
                 <div class="accessory__content">
-                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                   <!--  <img src="assets/img/contenido.png" alt="" class="accessory__img"> -->
                     <h3 class="accessory__title">Lugar y dia de cursado</h3>
                     <span class="accessory__category">Ciudad de Villa Maria</span>
                     <span class="accessory__category">Los dias Sabado</span>
@@ -178,7 +206,7 @@
                 </div>
 
                 <div class="accessory__content">
-                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <!-- <img src="assets/img/contenido.png" alt="" class="accessory__img"> -->
                     <h3 class="accessory__title">Horario de cursado</h3>
                     <span class="accessory__category">9:00hs. a 13:00hs  y de 15:00hs a 19:00hs.</span>
                     <!-- <span class="accessory__preci">$$$$$$$$</span> -->
@@ -186,7 +214,7 @@
                 </div>
 
                 <div class="accessory__content">
-                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
+                    <!-- <img src="assets/img/contenido.png" alt="" class="accessory__img"> -->
                     <h3 class="accessory__title">Fechas de cursado</h3>
                     <!-- <span class="accessory__preci">Fechas de cursado</span> -->
                     <span class="accessory__category">
@@ -202,13 +230,13 @@
                     <!-- <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
                 </div>
 
-                <div class="accessory__content">
-                    <img src="assets/img/contenido.png" alt="" class="accessory__img">
-                    <h3 class="accessory__title">Inversión</h3>
+                <!-- <div class="accessory__content"> -->
+                   <!--  <img src="assets/img/contenido.png" alt="" class="accessory__img"> -->
+                    <!-- <h3 class="accessory__title">Inversión</h3> -->
                     <!-- <span class="accessory__category">Servicio</span> -->
-                    <span class="accessory__preci">$5000</span>
-                   <!--  <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a> -->
-                </div>
+                    <!-- <span class="accessory__preci">$5000</span> -->
+                    <!-- <a href="wa.link/3mlmqo" class="accessory__button"><i class="fab fa-whatsapp"></i></a> -->
+                <!-- </div> --> 
             </div>
         </section>
 
@@ -246,9 +274,9 @@
             <div class="footer__content">
                 <h3 class="footer__title">Servicios</h3>
                 <ul>
-                    <li><a href="#" class="footer__link">bio</a></li>
-                    <li><a href="#" class="footer__link">Neuro</a></li>
-                    <li><a href="#" class="footer__link">Coaching</a></li>
+                    <li><a href="#desco-bio" class="footer__link">Descodificación Biológica</a></li>
+                    <li><a href="#progra-neuro" class="footer__link">Programación Neurolingüística</a></li>
+                    <li><a href="#coaching" class="footer__link">Coaching</a></li>
                 </ul>
             </div>
 
@@ -263,15 +291,16 @@
 
             <div class="footer__content">
                 <h3 class="footer__title">Social</h3>
-                <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                <a href="https://www.facebook.com/BNC-Bioneurocoaching-104210731742030" class="footer__social" target="_blanck"><i class='bx bxl-facebook-circle '></i></a>
                 <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a> -->
-                <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.instagram.com/bnc.bioneurocoaching/" class="footer__social" target="_blanck"><i class='bx bxl-instagram-alt'></i></a>
             </div>
         </div>
 
         <p class="footer__copy">&#169; 2021 Bioneurocoaching. Diseñado y desarrollado por Begiaro</p>
     </footer>
 
+    <a href="https://wa.link/bam9hx" class="scroll-btn-whatsapp" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABrElEQVRIS82VgS1EQRCGv6sAFaADHaADKkAFqAAVoAJUQAeoABXQASog32XmZb3b9/YiueQm2Vze7ez8//wzszthwTZZcHyWAmAHOAC2Ypn0a6w74GlMhbEMNoAbQIDvCJjBBPP/lQA4jf0ZrCEAAzzCVMIr4HyA5WHs/wD7tWxqAKvAe7DeG2JWAJrpA7AO7Pb9awA6m75LrQV0fYxonfsvAdK59gGURqeLkEV2fn8Bm42WVi5rplSSnFofQL2PgbUIegJchu8RcNsAkYjBBasCZJcoj1YC/GE2ACSB7TLbfgbqLEgyUCILLjOzapnddlYqUwOwsHZPWmYhO2UasyZAX6IMZnCn2V+HKodQva8jQ339tlHcHy2yHdNvy2wA5XJlkOw4AzaLnJqXh0pJLL4yWEjNKyTnJdvUYevup9qgDclUAknEZb0yG+flLQA73xqA94q6Wtx5TM0dMGXNbAYB7J77KORnHLAWZSHzsNeDQykRic4E13FokmvMlU4wJcnrWr/nmJvqXdUHUNMcNgP6rdayzPaTeT44tuW/H5x59G/6LMWb3GQ55vALoy1nGd0yKrcAAAAASUVORK5CYII="/></a>
     <!--========== SCROLL REVEAL ==========-->
     <script src="https://unpkg.com/scrollreveal"></script>
 

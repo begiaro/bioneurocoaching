@@ -111,3 +111,11 @@ sr.reveal(`.share__img, .send__content`, {
 sr.reveal(`.share__data, .send__img`, {
     origin: 'right'
 })
+
+/* Description Profile */
+function mostrarPremio() {
+ let description = document.querySelectorAll('.description-profile')[0];
+ console.log(description);
+ description.body.style.display = 'block';
+}
+
