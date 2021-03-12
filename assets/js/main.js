@@ -113,9 +113,39 @@ sr.reveal(`.share__data, .send__img`, {
 })
 
 /* Description Profile */
-function mostrarPremio() {
- let description = document.querySelectorAll('.description-profile')[0];
- console.log(description);
- description.body.style.display = 'block';
+
+/* document.getElementById('btn-description').addEventListener("click", function() {
+    let description = document.getElementById('description-profile');
+    if (description){
+        description.style.display = 'block';
+    } else {
+        description.style.display = 'none';
+    }
+
+}) */
+
+/* document.getElementById('btn-description-one').addEventListener("click", function() {
+    let description = document.getElementById('description-profile-one');
+    description.style.display = 'block';
+
+}) */
+
+/* document.getElementById('btn-description-two').addEventListener("click", function() {
+    let description = document.getElementById('description-profile-two');
+    description.style.display = 'block';
+
+}) */
+
+let description = document.getElementById('description-profile');
+let btn_description = document.getElementById('btn-description');
+
+
+const showDescription = () => {
+  description.style.display = 'block';
 }
 
+const hideDescription = () => {
+    description.style.display = 'none';
+}
+
+btn_description.addEventListener("click",showDescription);

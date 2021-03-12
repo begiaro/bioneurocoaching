@@ -425,7 +425,13 @@ img{
 
 /* TEAM */
 
-.description-profile{
+#description-profile{
+  display: none;
+}
+#description-profile-one{
+  display: none;
+}
+#description-profile-two{
   display: none;
 }
 

@@ -118,24 +118,24 @@
                 <div class="decoration__data">
                     <img src="assets/img/Laura.jpg" alt="laura-profile" class="decoration__img">
                     <h3 class="decoration__title">Mónaco, Laura Carolina </h3>
-                    <button  type="button" onclick="mostrarPremio()">Ver más</button>
-                    <p class="description-profile">
-                        Profesora adjunto en secretaría de extensión de medicina en coaching ontológico
-                        Programadora neurolingüística
-                        Miembro de la fundación salto investigación y enseñanza en psicoanálisis
-                        Investigación inteligencia artificial y psicoanálisis
-                        Miembro de dimensiones clínicas en control de casos en psicoanálisis
-                        Ex gerente de recursos humanos en claro grupo Lucom argentina
-                        Asesora comercial en coaching ejecutivo en claro y Movistar en calls Centers
-                        Coaching de liderazgo para Movistar y claro en estrategias de neuroventas y gestión en las comunicaciones
+                    <button  type="button" id="btn-description">Ver más</button>
+                    <p id="description-profile">
+                        Profesora adjunto en secretaría de extensión de medicina en coaching ontológico 
+                        Programadora neurolingüística 
+                        Miembro de la fundación salto investigación y enseñanza en psicoanálisis 
+                        Investigación inteligencia artificial y psicoanálisis 
+                        Miembro de dimensiones clínicas en control de casos en psicoanálisis 
+                        Ex gerente de recursos humanos en claro grupo Lucom argentina 
+                        Asesora comercial en coaching ejecutivo en claro y Movistar en calls Centers 
+                        Coaching de liderazgo para Movistar y claro en estrategias de neuroventas y gestión en las comunicaciones 
                     </p>
                 </div>
 
                 <div class="decoration__data">
                     <img src="assets/img/Liliana.jpeg" alt="Liliana-profile" class="decoration__img">
                     <h3 class="decoration__title">Alvarez, Liliana Isabel</h3>
-                    <button type="button" onclick="mostrarPremio()">Ver más</button>
-                    <p class="description-profile">
+                    <button type="button" id="btn-description-one">Ver más</button>
+                    <p id="description-profile-one">
                         Especialista diplomada en descodificación biológica de los síntomas y/o dolencias.
                         Especialista en la Nueva Medicina Germánica.
                         Terapeuta perteneciente al Instituto Argentino de Descodificación Biológica.
@@ -151,8 +151,8 @@
                 <div class="decoration__data">
                     <img src="assets/img/Pablo .JPG" alt="Pablo-profile" class="decoration__img">
                     <h3 class="decoration__title">Giliberti, Pablo Gustavo</h3>
-                    <button type="button" onclick="mostrarPremio()">Ver más</button>
-                    <p class="description-profile">
+                    <button type="button" id="btn-description-two">Ver más</button>
+                    <p id="description-profile-two">
                         Contador Público (UNC).
                         Especializado en consultoría de empresas y dirección estratégica empresarial. 
                         Coach Ontológico Profesional.  
@@ -244,16 +244,14 @@
         <section class="send section" id="contact">
             <div class="send__container bd-container bd-grid">
                 <div class="send__content">
-                    <h2 class="section-title-center send__title">Enviar Mensaje</h2>
-                    <p class="send__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <form action="">
+                    <h2 class="section-title-center send__title">Enviar Consulta</h2>
+                    <form action="mailto:bnc.bioneurocoaching@gmail.com" method="post">
                         <div class="send__direction">
-                            <input type="text" placeholder="House address" class="send__input">
-                            <a href="#" class="button">Enviar</a>
+                            <input type="text" placeholder="Consultas" class="send__input" name="Consulta">
+                            <input class="button"  type="submit" value="Enviar"Enviar/>
                         </div>
                     </form>
                 </div>
-
                 <div class="send__img">
                     <img src="assets/img/mensaje.png" alt="">
                 </div>
