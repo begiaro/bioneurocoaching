@@ -114,38 +114,35 @@ sr.reveal(`.share__data, .send__img`, {
 
 /* Description Profile */
 
-/* document.getElementById('btn-description').addEventListener("click", function() {
-    let description = document.getElementById('description-profile');
-    if (description){
-        description.style.display = 'block';
+document.getElementById('btn-description').addEventListener("click", function() {
+    let description = document.getElementById('description-profile'); 
+    if(description.classList == 'hidden_content') {
+        description.classList.add('hidden_content');
     } else {
-        description.style.display = 'none';
+        description.classList.toggle('hidden_content');
+    }
+    
+});
+
+
+document.getElementById('btn-description-one').addEventListener("click", function() {
+    let descriptionOne = document.getElementById('description-profile-one');
+    if(descriptionOne.classList == 'hidden_content') {
+        descriptionOne.classList.add('hidden_content');
+    } else {
+        descriptionOne.classList.toggle('hidden_content');
     }
 
-}) */
+});
 
-/* document.getElementById('btn-description-one').addEventListener("click", function() {
-    let description = document.getElementById('description-profile-one');
-    description.style.display = 'block';
-
-}) */
-
-/* document.getElementById('btn-description-two').addEventListener("click", function() {
-    let description = document.getElementById('description-profile-two');
-    description.style.display = 'block';
-
-}) */
-
-let description = document.getElementById('description-profile');
-let btn_description = document.getElementById('btn-description');
-
-
-const showDescription = () => {
-  description.style.display = 'block';
+document.getElementById('btn-description-two').addEventListener("click", function() {
+    let descriptionTwo = document.getElementById('description-profile-two');
+   if(descriptionTwo.classList == 'hidden_content') {
+    descriptionTwo.classList.add('hidden_content');
+} else {
+    descriptionTwo.classList.toggle('hidden_content');
 }
 
-const hideDescription = () => {
-    description.style.display = 'none';
-}
+});
 
-btn_description.addEventListener("click",showDescription);
+

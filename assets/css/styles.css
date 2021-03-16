@@ -425,16 +425,35 @@ img{
 
 /* TEAM */
 
-#description-profile{
+.btn-description {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--first-color);
+  color: white;
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  outline: none;
+}
+
+.btn-description:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.description-profile{
   display: none;
 }
-#description-profile-one{
+.description-profile-one{
   display: none;
 }
-#description-profile-two{
+.description-profile-two{
   display: none;
 }
 
+.hidden_content {
+  display: block;
+}
 
 /*========== SEND GIFT ==========*/
 .send{
@@ -538,6 +557,28 @@ img{
 .scroll-btn-whatsapp:hover{
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* ========== PROGRAM ========== */
+.module_h1{
+  margin-top: 7rem;
+}
+.content_program{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+.content_module {
+  width: 95%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 /*========== MEDIA QUERIES ==========*/
 
