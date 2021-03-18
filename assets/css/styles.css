@@ -456,14 +456,16 @@ img{
 }
 
 /*========== SEND GIFT ==========*/
-.send{
-  background-color: var(--first-color-send);
-}
+
 
 .send__container {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 40px;
 }
 
 .send__title, .send__description{
@@ -477,6 +479,7 @@ img{
 
 .send__direction{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
   padding: .5rem;
@@ -484,9 +487,11 @@ img{
 }
 
 .send__input{
-  width: 70%;
+  width: 220px;
   outline: none;
   border: none;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
   font-size: var(--normal-font-size);
   font-family: var(--body-font);
 }
@@ -495,14 +500,9 @@ img{
   font-family: var(--body-font);
 }
 
-.send__img{
-  
-  justify-self: center;
-}
 
-.send__img img {
-  width: 80px;
-  height: 80px;
+.send-img-content img{
+  color: white;
 }
 
 /*========== FOOTER ==========*/
@@ -645,6 +645,16 @@ img{
     width: 300px;
   }
 
+  .send__container {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .send__content {
+    padding-top: 100px;
+  }
+  
 }
 
 @media screen and (min-width: 576px){
@@ -747,7 +757,6 @@ img{
   }
 
   .send__container{
-    background-color: var(--first-color-send);
     padding: 2rem;
     border-radius: 1.5rem;
   }
@@ -766,8 +775,7 @@ img{
   }
 
   .home__container,
-  .share__container,
-  .send__container{
+  .share__container{
     column-gap: 5rem;
   }
 }
